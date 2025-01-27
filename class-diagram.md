@@ -1,4 +1,5 @@
 ```mermaid
+
 classDiagram
     class chat {
         +BIGINT id
