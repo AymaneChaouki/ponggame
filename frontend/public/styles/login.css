@@ -1,0 +1,70 @@
+.full-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.full-page .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 340px;
+}
+
+.full-page form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.full-page input {
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.full-page button {
+    width: 100%;
+}
+
+.full-page .hr {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    width: 100%;
+}
+
+.full-page .hr hr {
+    width: 100%;
+}
+
+.full-page .hr span {
+    font-size: 0.8rem;
+    color: var(--stroke-color);
+}
+
+.full-page p {
+    font-size: 0.8rem;
+}
+
+.full-page p a {
+    color: var(--secondary-color);
+}
+
+.full-page .social-login {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.full-page h1 {
+    text-align: center;
+    font-size: 1.5rem;
+}

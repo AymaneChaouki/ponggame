@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlitzPong</title>
+    <link rel="icon" href="public/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <base href="/">
+    <link rel="stylesheet" href="public/styles/normalize.css">
+    <link rel="stylesheet" href="public/assets/all.min.css">
+    <link rel="stylesheet" href="public/styles/globals.css">
+    <link rel="stylesheet" href="public/styles/app.css">
+    <link rel="stylesheet" href="public/styles/app2.css">
+    <link rel="stylesheet" href="public/styles/app3.css">
+    <link rel="stylesheet" href="public/styles/app4.css">
+    <link rel="stylesheet" href="public/styles/app5.css">
+    <link rel="stylesheet" href="public/styles/app6.css">
+    <link rel="stylesheet" href="public/styles/app7.css">
+    <link rel="stylesheet" href="public/styles/app8.css">
+    <link rel="stylesheet" href="public/styles/login.css">
+    <link rel="stylesheet" href="public/styles/chat.css">
+    <link rel="stylesheet" href="public/styles/settings.css">
+    <link rel="stylesheet" href="public/styles/dropdown.css">
+    <link rel="stylesheet" href="public/styles/match-making.css">
+</head>
+<body>
+    <span class="loader-top hidden"></span>
+    <c-sidebar></c-sidebar>
+    
+    <router-outlet></router-outlet>
+    
+    <div class="toasts-container"></div>
+    <script src="app/app.js" type="module"></script>
+</body>
+</html>

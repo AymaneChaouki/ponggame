@@ -1,0 +1,106 @@
+c-usercard .usercard {
+    cursor: pointer;
+    width: min-content;
+    width: 90px;
+    height: 100px;
+    /* border: 1px solid #000; */
+}
+
+c-usercard:hover,
+c-usercard .dropdown-button.active {
+    background-color: var(--default-color);
+    border-radius: 0.75rem;
+}
+
+c-usercard .username {
+    font-size: 0.75rem;
+    font-weight: 800;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+}
+
+c-usercard img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+c-usercard .user-status {
+    font-size: 0.65rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+
+c-usercard .user-status.online {
+    color: var(--success-color);
+}
+
+c-usercard .user-status.offline {
+    color: var(--stroke-color);
+}
+
+c-usercard .user-status.playing {
+    color: var(--danger-color);
+}
+
+
+.friends-result h3 {
+    font-size: .95rem;
+}
+
+.friends-result p {
+    font-size: .8rem;
+    padding-top: 0.2rem;
+}
+
+.friends-result .usercard {
+    width: 120px;
+    height: 110px;
+}
+
+.friends-result c-dropdown .dropdown__menu {
+    background-color: var(--bg-color) !important;
+}
+
+.friends-result .usercard:hover, .friends-result .usercard.active {
+    background-color: var(--bg-color);
+    border-radius: 0.75rem;
+}
+
+
+.dashboard-content {
+    display: grid;
+    grid-template-columns: minmax(580px, 1fr) 400px;
+    grid-template-rows: auto;
+    align-items: self-start;
+    margin: 38px auto;
+    gap: 3rem;
+    max-width: 1000px;
+}
+
+.dashboard-content main {
+    max-width: 580px;
+}
+
+.widgets {
+    position: sticky;
+    top: 38px;
+}
+
+.widget-container {
+    padding: 1.5rem;
+    width: 400px;
+}
+
+.widget-container .title-bar h1
+{
+    font-size: 22px;
+}
+
+.widget-container .title-bar a
+{
+    font-size: 15px;
+    color: var(--secondary-color);
+}
